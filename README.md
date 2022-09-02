@@ -1,26 +1,26 @@
-★ TỔNG HỢP 34 CÂU LỆNH GIT QUAN TRỌNG - TỪ CƠ BẢN ĐẾN NÂNG CAO  
- A/ MỨC ĐỘ CƠ BẢN.
+#### ★ TỔNG HỢP 34 CÂU LỆNH GIT QUAN TRỌNG - TỪ CƠ BẢN ĐẾN NÂNG CAO  
+ ### A/ MỨC ĐỘ CƠ BẢN.
 Đây là 9 câu lệnh GIT cơ bản và được sử dụng thường xuyên nhất. Cũng là thứ mà bạn cần nắm vững.
-▼ 𝟏. 𝐠𝐢𝐭 𝐜𝐨𝐧𝐟𝐢𝐠
+▼### 𝟏. 𝐠𝐢𝐭 𝐜𝐨𝐧𝐟𝐢𝐠
 Git config là câu lệnh mà chúng ta phải thực thi đầu tiên cài đặt git lên máy. Câu lệnh này sẽ giúp các bạn thiết lập tên và email cá nhân của bạn, những thông tin này sẽ đính kèm trong mọi commit của bạn, đều này sẽ rất hữu ích khi chúng ta muốn biết đoạn code nào đó đã được ai triển khai để có thể thảo luận trong trường hợp chúng ta không hiểu rõ đoạn code đấy sử dụng cho mục đích gì.
 $ git config --global user.name "Your name"
 $ git config --global user.email "Your email"
-▼ 𝟐. 𝐠𝐢𝐭 𝐯𝐞𝐫𝐬𝐢𝐨𝐧
+▼ ### 𝟐. 𝐠𝐢𝐭 𝐯𝐞𝐫𝐬𝐢𝐨𝐧
 Câu lệnh này dùng để kiểm tra phiên bản git đang sử dụng trên máy.
 $ git version
-▼ 𝟑. 𝐠𝐢𝐭 𝐢𝐧𝐢𝐭
+▼### 𝟑. 𝐠𝐢𝐭 𝐢𝐧𝐢𝐭
 Đây là câu lệnh đầu tiên khi chúng ta bắt đầu một dự án mới, câu lệnh này sẽ giúp chúng ta tạo một repository mới, sau đó nó sẽ được sử dụng để lưu trữ và quản lý mã nguồn trong repository này.
 $ git init
 // Hoặc bạn có thể đặt tên cho repo với lệnh
 $ git init <your repository name>
-▼ 𝟒. 𝐠𝐢𝐭 𝐜𝐥𝐨𝐧𝐞
+▼ ### 𝟒. 𝐠𝐢𝐭 𝐜𝐥𝐨𝐧𝐞
 Câu lệnh này giúp download một repository đã tồn tại sẵn trên kho lưu trữ (github, gitlab v.v) về máy.
 git clone <your project URL>
-▼ 𝟓. 𝐠𝐢𝐭 𝐚𝐝𝐝
+▼ ### 𝟓. 𝐠𝐢𝐭 𝐚𝐝𝐝
 Git add là câu lệnh giúp thêm tất cả các file code mới mới hoặc các file code được chỉnh sửa vào repository.
 $ git add your_file_name - Thêm một file( thêm mới hoặc chỉnh sửa) vào staging area
 $ git add * - Thêm tất cả các file (thêm mới hoặc chỉnh sửa) vào staging area
-▼ 𝟔. 𝐠𝐢𝐭 𝐜𝐨𝐦𝐦𝐢𝐭
+▼### 𝟔. 𝐠𝐢𝐭 𝐜𝐨𝐦𝐦𝐢𝐭
 Đây là câu lệnh được sử dụng phổ biến nhất, câu lệnh này giúp lưu các thay đổi ở các file trong vùng staging area xuống repository.
 Có thể hiểu git add dùng để thêm thêm các file được thay đổi hoặc thêm mới vào vùng staging area, và chúng sẽ sẵn sàng để commit và sau đó những thay đổi này sẽ được lưu xuống repository.
 $ git commit -m “your useful commit message”
