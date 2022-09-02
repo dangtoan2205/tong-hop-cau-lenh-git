@@ -95,9 +95,12 @@ Bạn nên sử dụng lệnh Git rebase khi bạn có nhiều branch riêng dù
 ## $ git rebase <base>
 ### 𝟐𝟏, 𝐠𝐢𝐭 𝐛𝐢𝐬𝐞𝐜𝐭
 Git bisect giúp bạn tìm ra những bad commit.
-- Để bắt đầu sử dụng $ git bisect start
-- Cho git bisect biết về một commit tốt $ git bisect good a123
-- Cho git bisect biết về một commit xấu $ git bisect bad z123
+- Để bắt đầu sử dụng 
+ ## $ git bisect start
+- Cho git bisect biết về một commit tốt 
+ ## $ git bisect good a123
+- Cho git bisect biết về một commit xấu 
+ ## $ git bisect bad z123
 ### 𝟐𝟐, 𝐠𝐢𝐭 𝐜𝐡𝐞𝐫𝐫𝐲-𝐩𝐢𝐜𝐤
 Git cherry-pick là một lệnh hữu ích. Đó là một lệnh cho phép bạn chọn bất kỳ commit nào từ một branch bất kỳ và áp dụng nó vào một branch hiện tại.
 ## $ git cherry-pick <commit-hash>
